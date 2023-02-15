@@ -11,7 +11,6 @@ body {
     background-color: #fff;
     margin-left: auto;
     margin-right: auto;
-    color: red;
 }
 
 .container {
@@ -23,5 +22,13 @@ body {
 }
 
 h1 {
-  color: darkmagenta;
+  color: blue
+}
+
+footer {
+  margin: inherit;
+  max-width: 90%;
+  text-align: center;
+  padding: 1rem;
+  background-color: aquamarine;
 }
