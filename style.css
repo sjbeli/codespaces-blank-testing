@@ -22,7 +22,8 @@ body {
 }
 
 h1 {
-  color: blue
+  color: blue;
+  text-align: center;
 }
 
 footer {
