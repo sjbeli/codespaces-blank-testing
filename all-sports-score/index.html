@@ -4,30 +4,30 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        <h1>Scoreboard</h1>
         <div class="container">
             <div class="column">
                 <h3>HOME</h3>
-                <h2 class="score">0</h2>
+                <h2 class="score"></h2>
                 <div>
-                    <button>+1</button>
-                    <button>+2</button>
-                    <button>+3</button>
-                    <button>+6</button>
-                    
+                    <button onclick="addOne()">+1</button>
+                    <button onclick="addTwo()">+2</button>
+                    <button onclick="addThree()">+3</button>
+                    <button onclick="addSix()">+6</button>
                 </div>
             </div>
 
             <div class="column">
                 <h3>GUEST</h3>
-                <h2 class="score">0</h2>
+                <h2 class="score"></h2>
                 <div>
-                    <button>+1</button>
-                    <button>+2</button>
-                    <button>+3</button>
-                    <button>+6</button>
+                    <button onclick="addOne()">+1</button>
+                    <button onclick="addTwo()">+2</button>
+                    <button onclick="addThree()">+3</button>
+                    <button onclick="addSix()">+6</button>
                 </div>
             </div>
-            <button class="reset">reset</button>
+            <button onclick="start()" class="reset">reset</button>
         </div>
     <script src="index.js"></script>
     </body>
